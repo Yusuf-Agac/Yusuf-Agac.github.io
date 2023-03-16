@@ -1,7 +1,108 @@
-table, th, td {
-    border: 1px solid;
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.center{
-    margin-left: auto;
-    margin-right: auto;
+
+/* Set default font styles */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+}
+
+/* Style the header */
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+/* Style the logo */
+.logo {
+	margin-right: 20px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+/* Style the navigation menu */
+nav {
+	flex-grow: 1;
+}
+
+nav a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 20px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Style the main content section */
+.content {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.content p {
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+/* Style the social media links */
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0;
+}
+
+footer img{
+    margin-right: 10px;
+}
+
+/* Style the contact information */
+.contact {
+	margin-bottom: 20px;
+}
+
+.contact p {
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+.contact a {
+	color: #333;
+}
+
+/* Style the footer */
+footer {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.copy {
+	margin-top: 20px;
 }
