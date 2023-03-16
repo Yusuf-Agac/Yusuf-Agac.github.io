@@ -1,11 +1,9 @@
-/* Reset default margin and padding */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-/* Set default font styles */
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -13,7 +11,6 @@ body {
 	color: #333;
 }
 
-/* Style the header */
 header {
 	background-color: #333;
 	color: #fff;
@@ -22,7 +19,6 @@ header {
 	padding: 20px;
 }
 
-/* Style the logo */
 .logo {
 	margin-right: 20px;
 }
@@ -31,7 +27,6 @@ header {
 	height: 50px;
 }
 
-/* Style the navigation menu */
 nav {
 	flex-grow: 1;
 }
@@ -50,7 +45,6 @@ nav a:hover {
 	color: #333;
 }
 
-/* Style the main content section */
 .content {
 	max-width: 800px;
 	margin: 0 auto;
@@ -69,7 +63,6 @@ nav a:hover {
 	margin-bottom: 20px;
 }
 
-/* Style the social media links */
 .social {
 	display: flex;
 	justify-content: center;
@@ -81,7 +74,6 @@ footer img{
     margin-right: 10px;
 }
 
-/* Style the contact information */
 .contact {
 	margin-bottom: 20px;
 }
