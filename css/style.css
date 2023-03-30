@@ -90,11 +90,25 @@ footer img{
 /* Style the footer */
 footer {
 	background-color: #333;
-	padding: 20px;
-	text-align: center;
+	text-align: bottom;
 	font-size: 14px;
+	padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
 
 .copy {
 	margin-top: 20px;
 }
+
+#myDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+  }
+  
