@@ -25,3 +25,19 @@ div.style.flexDirection = "column";
 div.style.alignItems = "center";
 div.appendChild(btn);
 div.appendChild(input);
+
+// Optional: You can use JavaScript to add hover effect to multiple elements with the same class
+
+// Get all elements with class "box"
+const boxes = document.querySelectorAll('.box');
+
+// Add hover effect to each element
+boxes.forEach(box => {
+  box.addEventListener('mouseover', () => {
+    box.style.transform = 'translateY(-20px)';
+  });
+
+  box.addEventListener('mouseout', () => {
+    box.style.transform = 'translateY(0)';
+  });
+});
